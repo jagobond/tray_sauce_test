@@ -1,0 +1,29 @@
+{
+  "name": "trayio_test",
+  "version": "1.0.0",
+  "description": "Test code for tray.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio wdio.conf.js; npm run allureGen;  npm run allureStart",
+    "allureGen": "allure generate allure-results --clean",
+    "allureStart": "allure open"
+  },
+  "author": "Harry Spriggs",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.5",
+    "@wdio/allure-reporter": "^6.1.9",
+    "@wdio/cli": "^6.1.9",
+    "@wdio/local-runner": "^6.1.9",
+    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/spec-reporter": "^6.1.9",
+    "@wdio/sync": "^6.1.8",
+    "allure-commandline": "^2.13.0",
+    "chromedriver": "^81.0.0",
+    "ts-node": "^8.10.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.3",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}

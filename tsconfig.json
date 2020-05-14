@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./*" ],
+      "src/*": ["./src/*"]
+    },
+    "types": [
+      "node",
+      "@wdio/sync",
+      "@wdio/mocha-framework"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./test/**/*.ts"
+  ]
+}
