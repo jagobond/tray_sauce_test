@@ -22,7 +22,7 @@
     "allure-commandline": "^2.13.0",
     "chromedriver": "^81.0.0",
     "ts-node": "^8.10.1",
-    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths": "^3.10.1",
     "typescript": "^3.8.3",
     "wdio-chromedriver-service": "^6.0.3"
   }
